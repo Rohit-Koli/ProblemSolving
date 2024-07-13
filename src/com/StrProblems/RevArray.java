@@ -16,12 +16,12 @@ public class RevArray {
 		     }
 		 
 	     for(int a:arr) {
-	    	 System.out.println(a);
+	    	 System.out.print(a+" ");
 	     }
  }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 int arr[]= {5,4,7,8,2};
+		 int arr[]= {1,2,3};
 		 reverse(arr);
 	
 		
