@@ -13,10 +13,22 @@ public class LongestSubstring {
 		}
 		return longWord;
 	}
+	
+	public static String solution02(String str) {
+		String strArr[]=str.split("\\s");
+		String longString ="";
+		for(String st:strArr) {
+			if(st.length()>longString.length()) {
+				longString=st;
+			}
+		}
+		return longString;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println(LongSubString("Hello RohitKoli 4325879p32 How are you !"));
+		System.out.println(solution02("This is Second Example01 of Longest String in Array"));
 	}
 
 }
