@@ -5,6 +5,8 @@ import java.util.Map;
 
 /*
  * Display the characters which has more than one occurrence in a String
+ * Input : Hi Kalpesh ,How are you ??
+ * Output : Haeo?
  */
 public class MoreOccurenceChars {
 	public static void main(String[] args) {
